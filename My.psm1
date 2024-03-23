@@ -48,3 +48,4 @@ function Convert-FromBase64toUTF8{
 
 New-Alias -Name tobase64 -Value Convert-toBase64
 New-Alias -Name frombase64 -Value Convert-fromBase64toUTF8
+New-Alias -Name nrp -Value New-RandomPassword
